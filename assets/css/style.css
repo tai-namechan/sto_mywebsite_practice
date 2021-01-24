@@ -148,3 +148,46 @@ header {
     height: 140px;
     line-height: 25px;
 }
+.button{
+    text-align: right;
+}
+button {
+    font-size: 17px;
+    background-color: #212235;
+    color: white;
+    /* 周りが丸くなる */
+    border-radius: 10px;
+}
+button{
+    padding: 15px 10px;
+}
+/* マウスが乗っかったとき */
+button:hover {
+    /* opacity = マウスが乗っかった時色が薄くなる 0 （透明）　〜　1　（不透明）の間で透明度を指定 */
+    opacity: 0.7;
+}
+
+/* お問い合わせ */
+.contact{
+    text-align: center;
+    /* margin-top: 100px; */
+}
+.contact h1 {
+    font-size: 25px;
+    padding: 100px 0 50px;
+}
+.contact p {
+    margin-bottom:30px;
+}
+.contact-button {
+    padding: 20px 60px;
+    margin-bottom: 90px;
+}
+footer {
+    background-color: #1a1a1a;
+    text-align: center;
+}
+footer p {
+    color: white;
+    padding: 20px;
+}
