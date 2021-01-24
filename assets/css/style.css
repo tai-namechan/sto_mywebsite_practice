@@ -15,7 +15,8 @@ header {
     justify-content: left; */
 }
 .header-left {
-    padding: 10px;
+    padding: 11px 0;
+    display: flex;
    /* margin-left: 30px;
    padding: 11px 0;
    display: flex;
@@ -29,11 +30,16 @@ header {
     color: white;
     font-size: 26px;
     margin: 10px;
-
+    font-family: serif;
     /* margin-left: 18px;
     color: white;
     font-size: 26px;
     font-family: serif; */
+}
+@media screen and (max-width:780px) {
+    .header-left {
+        margin-left: 15px;
+    }
 }
 .main {
     height: 400px;
@@ -67,6 +73,18 @@ header {
     align-items: center;
     width: 100%;
 }
+@media screen and (max-width:780px) {
+    .profile {
+        flex-direction: column;
+    }
+    .profile-right > h1 {
+        text-align: center;
+    }
+    .profile-right {
+        margin-bottom: 60px;
+    }
+}
+
 
 .profile-left{
     
@@ -123,6 +141,13 @@ header {
     margin: 0 auto;
 }
 
+@media screen and (max-width:780px) {
+    .threepoint{
+        flex-direction: column;
+    }
+
+}
+
 .introduction{
     /* わからん　なぜ31％なのか */
     width: 31%;
@@ -147,6 +172,14 @@ header {
 .introduction-description {
     height: 140px;
     line-height: 25px;
+}
+
+@media screen and (max-width:780px) {
+    .introduction {
+        width: 100%;
+        height: auto;
+        /* margin-bottom: 40px; */
+    }
 }
 .button{
     text-align: right;
@@ -183,6 +216,13 @@ button:hover {
     padding: 20px 60px;
     margin-bottom: 90px;
 }
+
+@media screen and (max-width:780px) {
+    .contact p {
+        margin: 40px;
+    }
+}
+
 footer {
     background-color: #1a1a1a;
     text-align: center;
