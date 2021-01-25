@@ -64,7 +64,11 @@ header {
 .description p {
     margin-bottom: 70px;
 }
-
+@media screen and (max-width:780px) {
+    .description > h1 {
+        font-weight: bolder;
+    }
+}
 /* プロフィール */
 .profile{
     display: flex;
@@ -227,6 +231,9 @@ button:hover {
 }
 
 @media screen and (max-width:780px) {
+    .contact-title {
+        font-weight: bolder;
+    }
     .contact p {
         margin: 40px;
     }
